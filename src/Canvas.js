@@ -5,7 +5,7 @@ class Canvas {
             let img = new Image()
             img.onload = () => resolve(img)
             img.onerror = reject
-            img.src = "../images/" + src
+            img.src = "images/" + src
         });
     }
 
